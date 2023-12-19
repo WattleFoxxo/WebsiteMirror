@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'ComicCodeNerdFont';
+    src: URL('/public/fonts/ComicCodeNerdFont-Regular.otf') format('opentype');
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: ComicCodeNerdFont;
+}
+
+.title_link {
+    font-size: larger;
+}
+
+.link_button {
+    border-radius: 6px !important;
+    transition:
+        filter 0.1s linear;
+    transition:
+        filter var(--animation-duration) linear;
+}
+
+.link_button:hover {
+    filter: brightness(75%);
+    text-decoration: none;
+}
+
+.discord_btn, .discord_btn:hover {
+    color: #fff !important;
+    background-color: #7587D3 !important;
+    border: solid !important;
+    border-width: 1pt !important;
+}
+
+.youtube_btn, .youtube_btn:hover {
+    color: #fff !important;
+    background-color: #EA4941 !important;
+    border: solid !important;
+    border-width: 1pt !important;
+}
+
+.github_btn, .github_btn:hover {
+    color: #fff !important;
+    background-color: #2A2D32 !important;
+    border: solid !important;
+    border-width: 1pt !important;
+}
+
+.kofi_btn, .kofi_btn:hover {
+    color: #fff !important;
+    background-color: #fb444a !important;
+    border: solid !important;
+    border-width: 1pt !important;
+}
+
+.website_btn, .website_btn:hover {
+    color: #fff !important;
+    background-color: #363635 !important;
+    border: solid !important;
+    border-width: 1pt !important;
+}
+
+.panel {
+    background: #161f27;
+    background: var(--background);
+    border-radius: 6px;
+    font-size: 1em;
+}
