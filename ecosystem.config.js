@@ -23,8 +23,7 @@ module.exports = {
             repo : 'git@github.com:WattleFoxxo/WebsiteMirror.git',
             fetch : 'all',
             path : '/var/www/wattlefoxxocom',
-            'pre-deploy' : 'git pull',
-            'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+            'post-deploy' : 'git pull && npm install && pm2 reload ecosystem.config.js --env production'
         }
     }
   };
